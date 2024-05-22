@@ -1,7 +1,8 @@
 package com.example.demo3;
 
+import com.example.CommunicationData;
+
 import java.io.IOException;
-import java.io.ObjectInputStream;
 import java.net.InetAddress;
 
 public class DataReader implements Runnable {

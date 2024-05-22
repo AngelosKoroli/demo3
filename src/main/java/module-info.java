@@ -5,4 +5,6 @@ module com.example.demo3 {
 
     opens com.example.demo3 to javafx.fxml;
     exports com.example.demo3;
+    exports com.example;
+    opens com.example to javafx.fxml;
 }

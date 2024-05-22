@@ -21,17 +21,17 @@
             <Font size="11.0" />
          </font>
       </Text>
-      <Button fx:id="button1" layoutX="31.0" layoutY="607.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="25.0" prefWidth="610.0" text="Send" />
+      <Button layoutX="31.0" layoutY="607.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="25.0" prefWidth="610.0" text="Send" />
       <TextField fx:id="From" layoutX="65.0" layoutY="514.0" prefHeight="25.0" prefWidth="236.0" />
       <TextField fx:id="To" layoutX="65.0" layoutY="564.0" prefHeight="25.0" prefWidth="236.0" />
-      <Text fx:id="From" layoutX="24.0" layoutY="531.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From:" />
-      <Text fx:id="To" layoutX="31.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To:" />
+      <Text layoutX="24.0" layoutY="531.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From:" />
+      <Text layoutX="31.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To:" />
       <TableView fx:id="allMessages" layoutX="30.0" layoutY="59.0" prefHeight="423.0" prefWidth="610.0">
         <columns>
           <TableColumn fx:id="IPColumn" prefWidth="120.0" text="IP" />
-          <TableColumn fx:id="FromColumn" prefWidth="140.0" text="From" />
-            <TableColumn fx:id="ToColumn" prefWidth="142.0" text="To" />
-            <TableColumn fx:id="MessageColumn" prefWidth="207.0" text="Message" />
+          <TableColumn fx:id="fromColumn" prefWidth="140.0" text="From" />
+            <TableColumn fx:id="toColumn" prefWidth="142.0" text="To" />
+            <TableColumn fx:id="messageColumn" prefWidth="207.0" text="Message" />
         </columns>
       </TableView>
       <Text layoutX="323.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message:" />

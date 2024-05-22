@@ -1,5 +1,6 @@
 package com.example.demo3;
 
+import com.example.CommunicationData;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 

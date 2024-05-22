@@ -1,9 +1,10 @@
-package com.example.demo3;
+package com.example;
 
 import java.io.Serializable;
 import java.net.InetAddress;
 
 public class CommunicationData implements Serializable {
+    private static final long serialVersionUID = 1234567890L;
     String from;
     String to;
     String message;

@@ -1,9 +1,7 @@
 package com.example.demo3;
 
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.OutputStream;
+import com.example.CommunicationData;
+
 import java.net.Socket;
 
 public class Client {
@@ -12,7 +10,7 @@ public class Client {
 
         // Controller.initialize()
         System.out.println("Connecting to my server");
-        Socket newSocket = new Socket("192.168.5.165",3256);
+        Socket newSocket = new Socket("10.37.153.155",3256);
         queue = new Numbers();
         ClientConnection newClient = new ClientConnection(newSocket);
 

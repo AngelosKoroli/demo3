@@ -1,5 +1,6 @@
 package com.example.demo3;
 
+import com.example.CommunicationData;
 import javafx.application.Platform;
 
 import java.util.ArrayList;
