@@ -30,7 +30,7 @@ public class MyClientController extends ClientServerController{
         dataReadThread.start();
         programLogicThread.start();
 
-        CommunicationData identity = new CommunicationData("Angelos K","SERVER","ID", 0);
+        CommunicationData identity = new CommunicationData("Angelos","SERVER","ID", 0);
         serverConnection.getObjOut().writeObject(identity);
         System.out.println("ClientController initialize() wrote: " + identity);
     }
